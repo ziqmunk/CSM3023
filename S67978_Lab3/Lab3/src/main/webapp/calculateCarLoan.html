@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Loan Calculator MY</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Perform Car Loan Calculation</h1><br><br>
+        <form id="loanFrm" action="calculateLoan.jsp" method="post">
+              <fieldset>
+                  <legend>Loan Calculation</legend>
+                  <label for="amount">Loan Amount*</label>
+                  <input type="text" id="amount" name="loan_amount" placeholder="Amount"><br><br>
+                  
+                  <label for="period">Period</label>
+                  <select name = period size = 1>
+                      <option value = "3" >3 years</option>
+                      <option value = "4" >4 years</option>
+                      <option value = "5" >5 years</option>
+                      <option value = "6" >6 years</option>
+                      <option value = "7" >7 years</option>
+                  </select><br><br>
+                  
+                  <p><input type="submit" id="btnSubmit" value="Submit"/>
+                      <input type="reset" id="btnCancel" value="Cancel"/>
+                  </p>
+            </fieldset>
+        </form>
+        <p>&copy; 2024-Muhammad Haziq Aiman</p>
+    </body>
+</html>
