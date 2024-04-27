@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>ziqman kacak</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Use JSP Declaration tag,JSP Scriplet and JSP Expression in application</h1><br>
+        <h3>Currency Conversion</h3><br>
+        <form action="processCurrency.jsp">
+            <table>
+                <tr>
+                    <td>
+                        <label for="amount">Amount(in RM)</label>
+                        <input type="text" id="amount" name="amount" placeholder="(in RM)">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="currency">Convert to</label>
+                        <select id="currency" name="currency">
+                            <option value="1">USD</option>
+                            <option value="2">Pound Sterling</option>
+                            <option value="3">Euro</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" value="Submit">Submit</button>
+                        <button type="reset" value="Reset">Cancel</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+    </body>
+</html>
