@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Biasiswa Al-Falah</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <fieldset>
+            <legend>User Details</legend>
+            <form action="processUser.jsp">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="fname">Name</label>
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname" placeholder="Enter firstname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="sname">Surname</label>
+                        </td>
+                        <td>
+                            <input type="text" id="sname" name="sname" placeholder="Enter surname">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" id="password" name="password" placeholder="Max 10 characters">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Gender</label>
+                        </td>
+                        <td>
+                            <label for="gender1">Male</label>
+                            <input type="radio" id="gender1" name="gender" value="Male">
+                            <label for="gender2">Female</label>
+                            <input type="radio" id="gender2" name="gender" value="Female">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Type of User</td>
+                        <td>
+                            <select id="typeUser" name="typeUser">
+                                <option value="Beginner">Beginner</option>
+                                <option value="Intermediate">Intermediate</option>
+                                <option value="Advanced">Advanced</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Prefer Language</label>
+                        </td>
+                        <td>
+                            <label for="lang1">Malay</label>
+                            <input type="checkbox" id="lang1" name="language" value="Malay">
+                            <label for="lang2">English</label>
+                            <input type="checkbox" id="lang2" name="language" value="English">
+                            <label for="lang3">Mandarin</label>
+                            <input type="checkbox" id="lang3" name="language" value="Mandarin">
+                            <label for="lang4">Tamil</label>
+                            <input type="checkbox" id="lang4" name="language" value="Tamil">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit" value="Submit">Submit</button>
+                            <button type="reset" value="Reset">Cancel</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+        <footer>&copy;2024-Ziqman</footer>
+    </body>
+</html>
